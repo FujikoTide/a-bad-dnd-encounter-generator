@@ -51,5 +51,3 @@ Within the Encounter output, you will see a 'cross' symbol button to the right o
 ##
 
 Play around and have fun !
-
-
