@@ -2,6 +2,8 @@
 
 #### Video Demo: <URL HERE>
 
+#### Functional Website: [A (Bad) D&D Encounter Generator](https://a-bad-dnd-encounter-generator.netlify.app/)
+
 ## Description
 
 This Project is a website that helps the DM to create encounters for those playing Dungeons & Dragons. It is made with vanilla Javascript, HTML and CSS, without any external libraries. It aims to be fully responsive and should have full functionality and usability on a mobile device.
