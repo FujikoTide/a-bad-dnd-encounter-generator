@@ -62,7 +62,6 @@ Within the Encounter output, you will see a 'cross' symbol button to the right o
 
 ### Files:
 
-
 [index.html:] (index.html)
 [style.css:] (style.css)
 [script.js:] (script.js)
