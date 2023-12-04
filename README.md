@@ -69,7 +69,7 @@ Within the Encounter output, you will see a 'cross' symbol button to the right o
 
 ##
 
-##### index.html:
+#### index.html:
 
 Written using flex boxes for layout, the intention is to be responsive and functional with a clean layout. The data for the select monster drop down was obtained from [D&D 5e API](https://www.dnd5eapi.co/) / [API Documentation](https://5e-bits.github.io/docs/api). A script was written to obtain the required monster data and constuct an option for each one. This data was then hard coded into the html, by far not the ideal choice, but preferable to making an excessive amount of API calls to provide the data.
 
