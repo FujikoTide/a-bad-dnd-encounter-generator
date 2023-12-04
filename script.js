@@ -193,26 +193,6 @@ addMonsterBtn.addEventListener("click", () => {
   addMonstersToEncounter();
 });
 
-//
-//
-//
-// //  add difficulty progress bar
-//  when updating difficulty progress, recheck party composition?
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-
 function addMonstersToEncounter() {
   encounterMonsters.replaceChildren();
 
