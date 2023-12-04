@@ -469,16 +469,9 @@ h3.dark {
   cursor: pointer;
 }
 
-
-
 .settings-form input[type="button"]:hover {
-  opacity: 0.7;
-  transition: opacity 0.2s ease;
-}
-
-.settings-form.dark input[type="button"]:hover {
-  opacity: 0.9;
-  transition: opacity 0.2s ease;
+  filter: brightness(0.9);
+    transition: filter 0.2s ease;
 }
 
 .settings-form input[type="button"]:active {
