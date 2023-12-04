@@ -16,7 +16,6 @@ const encounterSettings = document.getElementById("encounter-settings");
 const encounterOutput = document.getElementById("encounter-output");
 
 const partyControl = document.querySelector(".party-control");
-const playerLevels = document.querySelectorAll(".player-level");
 const partyMembers = document.getElementById("party-members");
 const settingsForm = document.getElementById("settings-form");
 
@@ -34,9 +33,6 @@ const checkmark = document.getElementById("checkmark");
 const encounterControl = document.querySelector(".encounter-control");
 
 const encounterMonsters = document.getElementById("encounter-monsters");
-const encounterContainer = document.getElementById("encounter-container");
-
-const deleteMonsterBtns = document.querySelectorAll(".delete-monster-entry");
 
 const footer = document.querySelector(".footer");
 
@@ -268,9 +264,8 @@ function addMonstersToEncounter() {
   addEncounterInfo();
 }
 
+// Delete Monster
 encounterMonsters.addEventListener("click", (e) => {
-  console.log("hello");
-  console.log(encounter);
   const monsterId = +e.target.parentElement.dataset.monsterId;
   encounter = encounter.filter((entry) => {
     if (entry !== monsterId) {
@@ -278,11 +273,9 @@ encounterMonsters.addEventListener("click", (e) => {
     }
   });
   addMonstersToEncounter();
-  console.log(encounter);
   if (encounter.length === 0) {
     encounterMonsters.replaceChildren();
   }
-  console.log(encounter);
 });
 
 function formatXp(num) {
