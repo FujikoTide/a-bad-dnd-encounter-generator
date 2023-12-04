@@ -69,4 +69,24 @@ Within the Encounter output, you will see a 'cross' symbol button to the right o
 
 ##
 
+##### index.html:
+
+Written using flex boxes for layout, the intention is to be responsive and functional with a clean layout. The select drop down with monster information was obtained from [D&D 5e API](https://www.dnd5eapi.co/) / [API Documentation](https://5e-bits.github.io/docs/api). A script was written to obtain the required monster data and constuct an option for each one. This data was then hard coded into the html, by far not the ideal choice, but preferable to making an excessive amount of API calls to provide the data.
+
+#### style.css:
+
+Hand coded to reflect what I would like to think is a look that reasonably reflects a classic/modern D&D colour scheme. I tried to make sure the design was clean and modern as well as being responsive. A light/dark mode was also implemented for user preference.
+
+#### script.js:
+
+a lot of DOM elements were created and also used as variables to implement the functionality of the site. Event listeners for buttons, delegation for the monster list. The encounter is stored as an array of monster IDs and when any action is taken to modify it, the function that draws the encounter panel is called again to redraw the new encounter. A reasonable amount of the website is also generated programmatically via Javascript DOM elements, this allowed the control over the look and placement of those elements in conjuction with the CSS.
+
+
+#### DnD_Horiz_1c_Wht_V1_XL_RGB.png:
+
+Obtained from the Official Dungeons & Dragons Media Kit:
+[D&D Brand](https://media.wizards.com/2018/dnd/downloads/DND_Press_DND.zip)
+
+##
+
 Play around and have fun !
