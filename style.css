@@ -407,23 +407,10 @@ h3.dark {
   cursor: pointer;
 }
 
-/* TEST */
-.monster-entry {
-  /* border: 5px solid blue; */
+.encounter-experience {
+  font-size: 17px;
+  font-weight: 700;
 }
-
-.monster-name,
-.monster-size,
-.monster-challenge-rating,
-.monster-xp {
-  /* border: 1px solid red; */
-}
-
-/* END TEST */
-
-
-
-
 
 .party-member.dark {
   background: var(--colour-red);
