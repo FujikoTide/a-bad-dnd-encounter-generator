@@ -8,6 +8,8 @@
 
 This Project is a website that helps the DM to create encounters for those playing Dungeons & Dragons. It is made with vanilla Javascript, HTML and CSS, without any external libraries. It aims to be fully responsive and should have full functionality and usability on a mobile device.
 
+##
+
 ### Site Functionality
 
 #### Reset:
@@ -18,6 +20,8 @@ Refreshing the page will reset an encounter, as will clicking the 'cross' symbol
 
 Click the Sun/Moon button in the top right corner to switch between light and dark modes.
 
+##
+
 ### Party Details
 
 #### Adding Party Members:
@@ -27,6 +31,8 @@ You can add up to 10 players to your party, with varying levels. If you wish to 
 #### Removing Party Members:
 
 You can remove a party member by clicking the 'minus' symbol button at the head of the Party Details section.
+
+##
 
 ### Encounter Settings
 
@@ -46,9 +52,21 @@ Checking the 'Favour Fewer, Tougher Monsters' check box will mean that the encou
 
 Click the **Generate Encounter** button to create the encounter, it will use the settings in the Encounter Settings menu, as well as taking party composition into account, unless Random has been selected on the slider.
 
+##
+
 ### Encounter
 
 Within the Encounter output, you will see a 'cross' symbol button to the right of each monster entry. Clicking this button will delete that entry from the encounter and update the experience for the encounter accordingly.
+
+##
+
+### Files:
+
+
+[index.html:] (index.html)
+[style.css:] (style.css)
+[script.js:] (script.js)
+[DnD_Horiz_1c_Wht_V1_XL_RGB.png:] (img/DnD_Horiz_1c_Wht_V1_XL_RGB.png)
 
 ##
 
