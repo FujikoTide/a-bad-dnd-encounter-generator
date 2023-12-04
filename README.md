@@ -62,10 +62,10 @@ Within the Encounter output, you will see a 'cross' symbol button to the right o
 
 ### Files:
 
-[index.html:] (index.html)
-[style.css:] (style.css)
-[script.js:] (script.js)
-[DnD_Horiz_1c_Wht_V1_XL_RGB.png:] (img/DnD_Horiz_1c_Wht_V1_XL_RGB.png)
+[index.html:](index.html)
+[style.css:](style.css)
+[script.js:](script.js)
+[DnD_Horiz_1c_Wht_V1_XL_RGB.png:](img/DnD_Horiz_1c_Wht_V1_XL_RGB.png)
 
 ##
 
