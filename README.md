@@ -1,6 +1,6 @@
 # A (Bad) D&D Encounter Generator
 
-#### Video Demo: <URL HERE>
+#### Video Demo: [A (Bad) D&D Encounter Generator - Youtube](https://youtu.be/-JIZQlNeXNA)
 
 #### Functional Website: [A (Bad) D&D Encounter Generator](https://a-bad-dnd-encounter-generator.netlify.app/)
 
